@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <form action="" name="frmnhaplieu" id="frmnhaplieu" method="post">
+        <table border="1" width="100%" cellspacing="0" cellpadding="5" align="center">
+            <tr>
+                <td colspan="2">Nhập thông tin đăng ký</td>
+            </tr>
+            <tr>
+                <td width="40%">Tên truy cập:</td>
+                <td>
+                    <input type="text" name="txdangnhap" id="txdangnhap" maxlength="50">*
+                </td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td>
+                    <input type="password" name="txpw" id="txpw" maxlength="100">*
+                </td>
+            </tr>
+            <tr>
+                <td>Nhập lại mật khẩu:</td>
+                <td><input type="password" name="txpw2" id="txpw2" maxlength="100">*</td>
+            </tr>
+            <tr>
+                <td>Tỉnh thành:</td>
+                <td>
+                    <select name="select" id="select">
+                        <option value="CT">Cần Thơ</option>
+                        <option value="HCM">Hồ Chí Minh</option>
+                        <option value="...">...</option>
+                    </select>*
+                </td>
+            </tr>
+            <tr>
+                <td>Họ và tên:</td>
+                <td>
+                    <input type="text" name="txhovaten" id="txhovaten" maxlength="100">*
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ:</td>
+                <td>
+                    <input type="text" name="txdiachi" id="txdiachi" maxlength="255">*
+                </td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td>
+                    <input type="text" name="txsdt" id="txsdt" maxlength="20">*
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" name="email" id="email" maxlength="100">*
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Mã số an toàn:</td>
+                <td>
+                    <input type="text" name="msat" id="msan" maxlength="100">*
+                    <img src="./image/noi_dung.jpg" alt="" width="100">
+                </td>
+            </tr>
+            <tr>
+                <td>Đồng ý với quy định thành viên bên dưới:</td>
+                <td>
+                    <input type="checkbox" name="ck" id="ck" value="1">*
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <iframe src="/quydinhthanhvien.html" frameborder="0" width="100%" height="200px"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">* là bắt buộc</td>
+            </tr>
+            <tr>
+                <td height="10px" colspan="2"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
