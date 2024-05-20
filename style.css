@@ -1,0 +1,13 @@
+/* CSS Document */
+.table_container{
+    border: solid 1px #ccc;
+    background: #ffff;
+    margin-bottom: 5px;
+}
+.table_container .header{
+    background: url(./image/noi_dung.jpg);
+    height: 35px;
+    padding-left: 7px;
+    font-weight: bold;
+    color: #419;
+}
