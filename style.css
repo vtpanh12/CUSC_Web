@@ -1,4 +1,12 @@
 /* CSS Document */
+body{
+    margin: auto;
+    background: url(./image/noi_dung.jpg);
+    background-repeat: repeat-x;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+/* CSS menu trai */
 .table_container{
     border: solid 1px #ccc;
     background: #ffff;
@@ -9,5 +17,74 @@
     height: 35px;
     padding-left: 7px;
     font-weight: bold;
-    color: #419;
+    color: #444;
+}
+.dssanpham{
+    padding: 5px;
+    vertical-align: middle;
+    border-bottom: dotted 1px #ccc;
+}
+.dssanpham img{
+    margin-right: 5px;
+    width: 45px;
+    float: left;
+}
+.tensanpham{
+    color: #2780B9;
+    font-weight: bold;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+}
+.left-menu{
+    padding: 0px;
+    margin: 0px;
+}
+.left-menu .lv1{
+    color: #555;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.left-menu .lv1 ul{
+    padding-left: 30px;
+}
+.left-menu .lv2{
+    color: #888;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 7px;
+    padding-left: 0px;
+}
+/* end menu trai */
+#skin-container{
+    padding: 5px;
+    background: #ecf1ec;
+    border-left: solid 1px #ccc;
+}
+#skin-banner{
+    background: url(./image/noi_dung.jpg);
+    height: 160px;
+    width: 1000px;
+}
+#skin-menu-ngang{
+    height: 50px;
+    text-align: right;
+    font-weight: bold;
+    color: #111;
+}
+#skin-content{
+    width: 100%;
+    padding: 5px;
+}
+#skin-footer{
+    padding: 5px;
+}
+#skin-footer p{
+    background: #1a1a64;
+    color: #ffff;
+    padding: 10px;
+    margin: 0px;
 }
