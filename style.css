@@ -1,7 +1,7 @@
 /* CSS Document */
 body{
     margin: auto;
-    background: url(./image/noi_dung.jpg);
+    /* background: url(./image/noi_dung.jpg); */
     background-repeat: repeat-x;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
@@ -22,6 +22,7 @@ body{
 .dssanpham{
     padding: 5px;
     vertical-align: middle;
+    /* dotted: kiểu đường viền dạng chấm */
     border-bottom: dotted 1px #ccc;
 }
 .dssanpham img{
@@ -87,4 +88,93 @@ body{
     color: #ffff;
     padding: 10px;
     margin: 0px;
+}
+/* CSS giohang */
+.table_data{
+    background: #fff;
+    font: 11px;
+    border-collapse: collapse;
+    /* border-collapse: collapse; gom 2 đường viền của bảng và ô lại thành 1 (sẽ mỏng hơn) */
+}
+.table_data th{
+    background: #0776BE;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    border: solid 1px #ccc;
+}
+.table_data .cot_stt{
+    text-align: center;
+    width: 10%;
+}
+.table_data .cot_sp{
+    font-weight: bold;
+    color: #2780B9;
+    width: 40%;
+}
+.table_data .cot_hsx{
+    text-align: center;
+    width: 20%;
+}
+.table_data .cot_gia{
+    text-align: right;
+    font-weight: bold;
+    width: 30%;
+    color: red;
+}
+.table_data .cot_slg{
+    text-align: center;
+    width: 5%;
+}
+.table_data .cot_slg input{
+    text-align: center;
+    font-weight: bold;
+}
+.table_data .input_btn{
+    color: #fff;
+    border: solid 1px #ccc;
+    background: #0776BE;
+    padding: 3px;
+}
+.table_data td{
+    /* boderstyle boder-width color of boder  (solid: đường viền liên tục)*/
+    border: solid 1px #ccc;
+}
+a, a:visited{
+    color: #2780B9;
+    text-decoration: none;
+}
+a:hover{
+    color: #DC4C2E;
+}
+/* CSS lien ket menu ngang */
+#skin-menu-ngang a, a:visited{
+    color: #031D70;
+    text-decoration: none;
+}
+#skin-menu-ngang a:hover{
+    color: #EE2207;
+    text-decoration: none;
+}
+#skin-menu-ngang a:active{
+    color: #0576C5;
+    text-decoration: none;
+}
+.ngan_cach{
+    color: #aaa;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* CSS menu trai */
+.left-menu .lv1 a{
+    color: #444;
+    text-decoration: none;
+}
+.left-menu .lv2 a{
+    color: #666;
+    text-decoration: none;
+}
+.left-menu .lv2 a:hover{
+    color: #EE2207;
+    text-decoration: none;
 }
