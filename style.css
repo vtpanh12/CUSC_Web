@@ -178,3 +178,51 @@ a:hover{
     color: #EE2207;
     text-decoration: none;
 }
+/* CSS gop y  */
+.table_form{
+    background: #fff;
+    font: 11px;
+    border-collapse: collapse;
+}
+.table_form td{
+    border: solid 1px #ccc;
+    padding: 5px;
+}
+.table_form .tieu_de{
+    background: #0776BE;
+    color: #fff;
+    font-weight: bold;
+}
+.table_form .left{
+    background: #eee;
+    text-align: right;
+    font-weight: bold;
+    width: 30%;
+}
+.table_form .right{
+    text-align: left;
+}
+.table_form .bottom{
+    text-align: center;
+}
+.table_form input{
+    border: solid 1px #ccc;
+    background: #fff;
+    color: #333;
+}
+.table_form select{
+    border: solid 1px #ccc;
+    background: #fff;
+    color: #333;
+}
+.table_form .button{
+    color: #fff;
+    border: solid 1px #ccc;
+    background: #0776BE;
+    padding: 2px;
+    margin-right: 5px;
+}
+#batbuoc{
+    color: red;
+    font-weight: bold;
+}
