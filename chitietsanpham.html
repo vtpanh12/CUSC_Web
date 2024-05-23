@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table width="100%" border="1" cellspacing="0" cellpadding="5">
+    <table width="100%" border="1" cellspacing="0" cellpadding="5" class="table_container">
         <tr>
             <td width="23%" align="center">
                 <img src="./product-image/1.jpg" alt="" width="180">
             </td>
             <td>
-                <p><strong>SANSUNG</strong></p>
-                <p>Giá:089788054869VND</p>
+                <p class="tensp_lon"><strong>SANSUNG</strong></p>
+                <p><strong>Giá: </strong>
+                <span class="gia">18.000.000 </span>VND</p>
+                <p><strong>Giá cũ: </strong><span class="gia_cu">19.000.000 </span>VND</p>
+                <p><strong>Ngày cập nhật: </strong>11/02/2022</p>
+                <p><strong>Số lượng: </strong>200</p>
                 <p><img src="/image/images.png" alt="" width="40"></p>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <a href="/tinhnang.html" target="frmchitiet">Tính năng</a>
-                <a href="/quatang.html" target="frmchitiet">Quà tặng</a>
-                <iframe src="/tinhnang.html" frameborder="0" name="frmchitiet" width="100%" height="200px"></iframe>
+                <a href="/tinhnang.html" target="frmchitiet" class="lk_tinhnang">Tính năng</a>
+                <a href="/quatang.html" target="frmchitiet" class="lk_tinhnang">Quà tặng</a>
+                <iframe src="/tinhnang.html" frameborder="0" name="frmchitiet" width="100%" 
+                height="200px" class="frame"></iframe>
             </td>
         </tr>
     </table>

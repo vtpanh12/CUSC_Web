@@ -226,3 +226,63 @@ a:hover{
     color: red;
     font-weight: bold;
 }
+/* CSS so do */
+.so_do{
+    padding: 7px;
+    padding-left: 50px;
+    margin: 0px;
+}
+.so_do .lv1{
+    color: #555;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.so_do .lv1 ul{
+    padding-left: 30px;
+}
+.so_do .lv2{
+    color: #888;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 7px;
+    padding-left: 0px;
+}
+/* CSS dsanpham */
+.table_sp{
+    background: #f2f4f2F1;
+    border-collapse: collapse;
+}
+.table_sp .sanpham{
+    background: #fff;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+.table_sp img{
+    border: 0px;
+    margin-bottom: 10px;
+}
+/* CSS chitiet_sp */
+.tensp_lon{
+    color: #2780B9;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gia_cu{
+    color: #990;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.lk_tinhnang, .lk_tinhnang:visited{
+    background: #0776BE;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.frame{
+    border: solid 1px #0776BE;
+    margin-top: 5px;
+}
