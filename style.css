@@ -264,6 +264,27 @@ a:hover{
     border: 0px;
     margin-bottom: 10px;
 }
+.table_sp .tim_kiem{
+    padding: 5px;
+    background: url(./image/noi_dung.jpg);
+    font-size: 11px;
+    color: #444;
+    text-align: left;
+}
+.table_sp .btn_search{
+    background: #2780B9;
+    border: 0;
+    height: 24px;
+    width: 81px;
+}
+.table_sp input, select{
+    border: solid 1px #ccc;
+}
+.table_sp .sap_xep{
+    background: #fff;
+    text-align: right;
+    padding: 3px;
+}
 /* CSS chitiet_sp */
 .tensp_lon{
     color: #2780B9;

@@ -9,6 +9,52 @@
 <body>
     <table border="1" cellpadding="5" cellspacing="0" width="100%" class="table_sp">
         <tr>
+            <td class="tim_kiem" colspan="" rowspan="">
+                <form action="" method="post" name="ifrnhaplieu" id="frmnhaplieu">
+                    Tùy chọn <input type="text" name="txt_tuychon" id="txt_tuychon">
+                    <select name="sl_hang" id="sl_hang">
+                        <option>Tất cả các sản phẩm</option>
+                        <option value="do">D.O.</option>
+                        <option value="chen">Chen</option>
+                        <option value="baek">BAEKHYUN</option>
+                        <option value="chan">CHANYEOL</option>
+                    </select>
+                    <select name="gia_tu" id="gia_tu">
+                        <option>Giá từ</option>
+                        <option value="3">3.000.000</option>
+                        <option value="5">5.000.000</option>
+                        <option value="7">7.000.000</option>
+                    </select>
+                    <select name="gia_den" id="gia_den">
+                        <option>Giá đến</option>
+                        <option value="6">6.000.000</option>
+                        <option value="9">9.000.000</option>
+                        <option value="10">10.000.000</option>
+                    </select>
+                    <input type="submit" value="Tìm kiếm" name="btn_search" id="btn_search" class="btn_search">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="sap_xep">
+                <form action="" id="form2" name="form2" method="post">
+                    <select name="sap_xep_theo" id="">
+                        <option>Sắp xếp theo</option>
+                        <option value="gia">Giá</option>
+                        <option value="ten">Tên</option>
+                        <option value="nhasx">Nhà sản xuất</option>
+                    </select>
+                    <select name="thu_tu" id="">
+                        <option>Thứ tự</option>
+                        <option value="tang">Tăng dần</option>
+                        <option value="giam">Giảm dần</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <table border="1" cellpadding="5" cellspacing="0" width="100%" class="table_sp">
+        <tr>
             <td class="sanpham"><a href="./chitietsanpham.html"><img src="/product-image/1.jpg" alt="" width="200px"></a><br>
                 <span class="ten_sp">D.O. </span><br> 
                 Giá:<span class="gia">12011993</span>
