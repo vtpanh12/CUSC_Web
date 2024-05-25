@@ -53,8 +53,8 @@
             <tr>
                 <td class="left"><label for="giaodich">Bạn có giao dịch trên Salomon chưa</label></td>
                 <td class="right">
-                    <input type="radio" name="giaodic" id="giaodich" value="1" checked><label for="Co">Có</label>
-                    <input type="radio" name="giaodic" id="giaodich" value="0"><label for="Chưa">Chưa</label>
+                    <input type="radio" name="giaodich" id="giaodich" value="co" checked><label for="Co">Có</label>
+                    <input type="radio" name="giaodich" id="giaodich" value="chua"><label for="Chưa">Chưa</label>
                 </td>
             </tr>
             <tr>
@@ -68,7 +68,7 @@
             </tr>
             <tr>
                 <td height="10px" colspan="2" align="center" class="bottom"><input type="submit" name="btnsubmit" 
-                    id="btnsubmit" value="Gửi góp ý">
+                    id="btnsubmit" value="Gửi góp ý" onclick="checkFeedback()">
                     <input type="reset" name="btnreset" id="btnreset" value="Nhập lại" class="button">
                 </td>
             </tr>

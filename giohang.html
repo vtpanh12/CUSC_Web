@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     <form action="" id="frmnhaplieu" method="post" name="frmnhaplieu">
@@ -22,7 +23,7 @@
                 <td class="cot_hsx">EXO</td>
                 <td class="cot_gia">12011993</td>
                 <td class="cot_slg">
-                    <input type="number" name="sl1" id="sl1" value="1" size="5">
+                    <input type="number" name="sl" id="sl" value="1" size="5">
                 </td>
             </tr>
             <tr>
@@ -31,11 +32,20 @@
                 <td class="cot_hsx">EXO</td>
                 <td class="cot_gia">100000000</td>
                 <td class="cot_slg">
-                    <input type="number" name="sl2" id="sl2" value="1" size="5">
+                    <input type="number" name="sl1" id="sl1" value="1" size="5">
                 </td>
             </tr>
             <tr>
                 <td align="center" class="cot_stt">3</td>
+                <td class="cot_sp">D.O.</td>
+                <td class="cot_hsx">EXO</td>
+                <td class="cot_gia">12011993</td>
+                <td class="cot_slg">
+                    <input type="number" name="sl2" id="sl2" value="1" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="cot_stt">4</td>
                 <td class="cot_sp">D.O.</td>
                 <td class="cot_hsx">EXO</td>
                 <td class="cot_gia">12011993</td>
@@ -53,20 +63,11 @@
                 </td>
             </tr>
             <tr>
-                <td align="center" class="cot_stt">4</td>
-                <td class="cot_sp">D.O.</td>
-                <td class="cot_hsx">EXO</td>
-                <td class="cot_gia">12011993</td>
-                <td class="cot_slg">
-                    <input type="number" name="sl5" id="sl5" value="1" size="5">
-                </td>
-            </tr>
-            <tr>
                 <td colspan="5" align="right" class="gia">Tổng giá: <span>123243547658 VND</span></td>
             </tr>
             <tr>
                 <td colspan="5" align="center">
-                    <input type="submit" value="Đồng ý và thanh toán" id="btnsub" name="btnsub" class="input_btn">
+                    <input type="submit" value="Đồng ý và thanh toán" id="btnsub" name="btnsub" class="input_btn" onclick="checkout()">
                 </td>
             </tr>
         </table>
